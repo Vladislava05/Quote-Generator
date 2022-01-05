@@ -5,3 +5,6 @@
 # Features
 * Generate quotes with their authors
 * Share quotes on Twitter 
+
+
+![Image](quote.png)
