@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-200">
+<div class="container">
+   
+<div id="main__inner">
+    <h1 class="text-3xl">Quote Generator</h1>
+    <div id="quoteDisplay" class="bg-slate-800">
+        <i>"{{ item }}"</i><br>
+        <strong>{{ author }}</strong>
+    </div><br>
+    <button class="rounded bg-slate-700 p-1.5" style="color: #fff;" v-on:click="newQuote">Get A Quote</button><button><a class="tweet-quote"
+    v-bind:href="finalUrl"><img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a></button>
+
+</div>   
+</div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="main.js"></script>   
+</body>
+</html>
